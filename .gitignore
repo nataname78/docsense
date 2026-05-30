@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Données
+data/cache/
+data/indexes/
+data/raw/*.pdf
+data/eval_results/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
