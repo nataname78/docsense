@@ -11,7 +11,7 @@ Inspiration : reflection / self-consistency check (Anthropic, OpenAI).
 import os
 import time
 from dotenv import load_dotenv
-from mistralai import Mistral
+from src.llm_client import Mistral
 from mistralai.models.sdkerror import SDKError
 
 from src.logger import get_logger
