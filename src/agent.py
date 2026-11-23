@@ -16,7 +16,7 @@ import re
 import time
 from pathlib import Path
 from dotenv import load_dotenv
-from mistralai import Mistral
+from src.llm_client import Mistral
 from mistralai.models.sdkerror import SDKError
 
 from src.tools import (
