@@ -12,7 +12,7 @@ import os
 import time
 from pathlib import Path
 from dotenv import load_dotenv
-from mistralai import Mistral
+from src.llm_client import Mistral
 from mistralai.models.sdkerror import SDKError
 from src.anti_hallucination import verify_answer
 
